@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="fig" width="1040" height="870" viewBox="0 0 1040 870" xmlns="http://www.w3.org/2000/svg">
+  <style>
+  text{font-family:"SimHei","Microsoft YaHei","WenQuanYi Zen Hei",sans-serif;font-size:21px;fill:#000}
+  .box{fill:#fff;stroke:#000;stroke-width:2.5}
+  .ln{stroke:#000;stroke-width:2.5;fill:none;marker-end:url(#ar)}
+</style>
+  <defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="14" refX="14" refY="7" orient="auto">
+    <path d="M0,0 L16,7 L0,14 z" fill="#000"></path></marker></defs>
+
+  <!-- 左侧阶段标签 -->
+  <rect width="1040" height="870" fill="#fff"></rect>
+  <rect class="box" x="20" y="30" width="50" height="120"></rect>
+  <text x="45" y="80" text-anchor="middle" font-size="26">检</text>
+  <text x="45" y="115" text-anchor="middle" font-size="26">索</text>
+  <rect class="box" x="20" y="180" width="50" height="520"></rect>
+  <text x="45" y="390" text-anchor="middle" font-size="26">筛</text>
+  <text x="45" y="460" text-anchor="middle" font-size="26">选</text>
+  <rect class="box" x="20" y="730" width="50" height="120"></rect>
+  <text x="45" y="780" text-anchor="middle" font-size="26">纳</text>
+  <text x="45" y="815" text-anchor="middle" font-size="26">入</text>
+
+  <!-- 主流程 -->
+  <rect class="box" x="100" y="45" width="380" height="90"></rect>
+  <text x="290" y="83" text-anchor="middle">通过数据库检索获得文献</text>
+  <text x="290" y="113" text-anchor="middle">(n = 1968)</text>
+
+  <rect class="box" x="100" y="225" width="380" height="90"></rect>
+  <text x="290" y="263" text-anchor="middle">去重后进行标题和摘要筛选</text>
+  <text x="290" y="293" text-anchor="middle">(n = 1058)</text>
+
+  <rect class="box" x="100" y="525" width="380" height="90"></rect>
+  <text x="290" y="563" text-anchor="middle">全文阅读及资格复核</text>
+  <text x="290" y="593" text-anchor="middle">(n = 82)</text>
+
+  <rect class="box" x="100" y="745" width="380" height="90"></rect>
+  <text x="290" y="783" text-anchor="middle">纳入定量分析的研究</text>
+  <text x="290" y="813" text-anchor="middle">(n = 39)</text>
+
+  <line class="ln" x1="290" y1="135" x2="290" y2="222"></line>
+  <line class="ln" x1="290" y1="315" x2="290" y2="522"></line>
+  <line class="ln" x1="290" y1="615" x2="290" y2="742"></line>
+
+  <!-- 排除框 -->
+  <rect class="box" x="570" y="45" width="430" height="90"></rect>
+  <text x="785" y="98" text-anchor="middle">排除重复文献 (n = 910)</text>
+  <line class="ln" x1="480" y1="90" x2="567" y2="90"></line>
+
+  <rect class="box" x="570" y="330" width="430" height="165"></rect>
+  <text x="590" y="368">阅读标题和摘要后排除 (n = 976)</text>
+  <text x="590" y="403">• 非社会技能 / 社会沟通主题</text>
+  <text x="590" y="438">• 非单一被试设计</text>
+  <text x="590" y="473">• 未采用视频示范干预</text>
+  <line class="ln" x1="290" y1="412" x2="567" y2="412"></line>
+
+  <rect class="box" x="570" y="555" width="430" height="165"></rect>
+  <text x="590" y="593">全文复核后排除 (n = 43)</text>
+  <text x="590" y="628">• 重复或重叠发表的报告 (n = )</text>
+  <text x="590" y="663">• 示范者无法辨识 (n = )</text>
+  <text x="590" y="698">• 无可提取的结果数据 (n = )</text>
+  <line class="ln" x1="290" y1="680" x2="567" y2="680"></line>
+</svg>
