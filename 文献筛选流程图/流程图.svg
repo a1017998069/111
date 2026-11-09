@@ -23,7 +23,7 @@
 <line class="ln0" x1="200.0" y1="56" x2="200.0" y2="64"></line>
 <line class="ln0" x1="90.0" y1="64" x2="200.0" y2="64"></line>
 <rect class="box" x="280" y="67.0" width="212" height="30"></rect>
-<text class="b" x="288" y="88.0" text-anchor="start">排除重复记录（<tspan font-style="italic">n</tspan>=<tspan>910</tspan>）</text>
+<text class="b" x="288" y="88.0" text-anchor="start">剔除重复记录（<tspan font-style="italic">n</tspan>=<tspan>910</tspan>）</text>
 <line class="ln" x1="145.0" y1="82.0" x2="279" y2="82.0"></line>
 <line class="ln" x1="145.0" y1="64" x2="145.0" y2="99"></line>
 <rect class="box" x="38" y="100" width="214" height="46"></rect>
@@ -52,7 +52,7 @@
 <rect class="box" x="280" y="301.0" width="212" height="87"></rect>
 <text class="b" x="288" y="322.0" text-anchor="start">排除研究（<tspan font-style="italic">n</tspan>=<tspan>56</tspan>）</text>
 <text class="" x="288" y="341.0" text-anchor="start">被试超过12岁</text>
-<text class="" x="288" y="360.0" text-anchor="start">未以图呈现逐次数据</text>
+<text class="" x="288" y="360.0" text-anchor="start">目标技能未逐次测量</text>
 <text class="" x="288" y="379.0" text-anchor="start">阶段数据点不足3个或无法读取</text>
 <line class="ln" x1="252" y1="326.0" x2="279" y2="326.0"></line>
 <line class="ln" x1="145.0" y1="349.0" x2="145.0" y2="399.0"></line>
