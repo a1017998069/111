@@ -30,7 +30,7 @@
 <text class="b" x="170.0" y="119" text-anchor="middle">阅读题目与摘要初筛</text>
 <text class="b" x="170.0" y="139" text-anchor="middle">（<tspan font-style="italic">n</tspan>=<tspan>1070</tspan>）</text>
 <rect class="box" x="328" y="107.0" width="268" height="106"></rect>
-<text class="b" x="336" y="128.0" text-anchor="start">排除与研究问题无关的记录（<tspan font-style="italic">n</tspan>=<tspan>823</tspan>）</text>
+<text class="b" x="336" y="128.0" text-anchor="start">排除记录（<tspan font-style="italic">n</tspan>=<tspan>823</tspan>）</text>
 <text class="" x="336" y="147.0" text-anchor="start">非单一被试设计</text>
 <text class="" x="336" y="166.0" text-anchor="start">视频未作为干预手段</text>
 <text class="" x="336" y="185.0" text-anchor="start">视频干预对象非孤独症儿童</text>
