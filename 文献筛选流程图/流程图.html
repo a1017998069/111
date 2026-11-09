@@ -1,69 +1,72 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><title>文献筛选流程图</title><style>body{margin:0;background:#fff}</style></head><body>
-<svg id="fig" width="930" height="893" viewBox="0 0 930 893" xmlns="http://www.w3.org/2000/svg">
+<svg id="fig" width="600" height="471" viewBox="0 0 600 471" xmlns="http://www.w3.org/2000/svg">
 <style>
-  text{font-family:Arial,"Liberation Sans","SimHei","黑体","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:18px;fill:#000}
-  .box{fill:#fff;stroke:#000;stroke-width:1.6}
-  rect.stage{fill:#e6e6e6;stroke:#000;stroke-width:1.6}
-  text.stage{font-weight:bold}
-  .ln,.ln0{stroke:#000;stroke-width:1.6;fill:none}
+  text{font-family:"Times New Roman","Liberation Serif","SimSun","宋体","Noto Serif CJK SC",serif;font-size:14px;fill:#000}
+  text.b{font-weight:bold}
+  text.st{font-weight:bold;font-size:15px}
+  .box{fill:#fff;stroke:#000;stroke-width:1}
+  .thick{stroke-width:2.2}
+  .stage{fill:#e6e6e6;stroke:#000;stroke-width:1}
+  .ln,.ln0{stroke:#000;stroke-width:1;fill:none}
   .ln{marker-end:url(#ar)}
 </style>
-<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="10" refX="11" refY="5" orient="auto"><path d="M0,0 L12,5 L0,10 z" fill="#000"/></marker></defs>
-<rect width="930" height="893" fill="#fff"/>
-<rect class="box" x="100" y="20" width="208" height="66" rx="0"/>
-<text x="204.0" y="47" text-anchor="middle">数据库检索得到记录</text>
-<text x="204.0" y="73" text-anchor="middle">n=1968</text>
-<rect class="box" x="322" y="20" width="208" height="66" rx="0"/>
-<text x="426.0" y="47" text-anchor="middle">参考文献追溯得到记录</text>
-<text x="426.0" y="73" text-anchor="middle">n=12</text>
-<line class="ln0" x1="204.0" y1="86" x2="204.0" y2="104"/>
-<line class="ln0" x1="426.0" y1="86" x2="426.0" y2="104"/>
-<line class="ln0" x1="204.0" y1="104" x2="426.0" y2="104"/>
-<line class="ln" x1="315.0" y1="104" x2="315.0" y2="186"/>
-<rect class="box" x="590" y="125.5" width="318" height="41" rx="0"/>
-<text x="604" y="151.5" text-anchor="start">排除重复记录 n=910</text>
-<line class="ln" x1="315.0" y1="146.0" x2="588" y2="146.0"/>
-<rect class="box" x="100" y="188" width="430" height="46" rx="0"/>
-<text x="315.0" y="218" text-anchor="middle">去重后获得记录 n=1070</text>
-<line class="ln" x1="315.0" y1="234" x2="315.0" y2="424"/>
-<rect class="box" x="590" y="247.0" width="318" height="166" rx="0"/>
-<text x="604" y="273.0" text-anchor="start">阅读题目与摘要，排除与研究问题</text>
-<text x="604" y="298.0" text-anchor="start">无关的记录 n=823</text>
-<text x="604" y="323.0" text-anchor="start">· 非单一被试设计</text>
-<text x="604" y="348.0" text-anchor="start">· 视频未作为干预手段</text>
-<text x="604" y="373.0" text-anchor="start">· 视频干预对象非孤独症儿童</text>
-<text x="604" y="398.0" text-anchor="start">· 干预目标非社交技能</text>
-<line class="ln" x1="315.0" y1="330.0" x2="588" y2="330.0"/>
-<rect class="box" x="100" y="426" width="430" height="46" rx="0"/>
-<text x="315.0" y="456" text-anchor="middle">初筛后获得记录 n=247</text>
-<line class="ln" x1="315.0" y1="472" x2="315.0" y2="612"/>
-<rect class="box" x="590" y="485.0" width="318" height="116" rx="0"/>
-<text x="604" y="511.0" text-anchor="start">按干预特征复筛，排除不符合</text>
-<text x="604" y="536.0" text-anchor="start">要求的记录 n=153</text>
-<text x="604" y="561.0" text-anchor="start">· 第一视角视频示范或视频反馈</text>
-<text x="604" y="586.0" text-anchor="start">· 无法判定示范者类型</text>
-<line class="ln" x1="315.0" y1="543.0" x2="588" y2="543.0"/>
-<rect class="box" x="100" y="614" width="430" height="46" rx="0"/>
-<text x="315.0" y="644" text-anchor="middle">复筛后进入全文复核的研究 n=94</text>
-<line class="ln" x1="315.0" y1="660" x2="315.0" y2="825"/>
-<rect class="box" x="590" y="673.0" width="318" height="141" rx="0"/>
-<text x="604" y="699.0" text-anchor="start">根据纳入与排除标准，阅读全文及</text>
-<text x="604" y="724.0" text-anchor="start">数据后排除不合格研究 n=56</text>
-<text x="604" y="749.0" text-anchor="start">· 被试超过12岁</text>
-<text x="604" y="774.0" text-anchor="start">· 目标技能未逐次测量</text>
-<text x="604" y="799.0" text-anchor="start">· 阶段数据点不足3个或无法读取</text>
-<line class="ln" x1="315.0" y1="743.5" x2="588" y2="743.5"/>
-<rect class="box" x="100" y="827" width="430" height="46" rx="0"/>
-<text x="315.0" y="857" text-anchor="middle">最终纳入元分析的研究 n=38</text>
-<rect class="stage" x="20" y="20" width="46" height="152.0"/>
-<text class="stage" x="43.0" y="91.0" text-anchor="middle">识</text>
-<text class="stage" x="43.0" y="115.0" text-anchor="middle">别</text>
-<rect class="stage" x="20" y="188.0" width="46" height="615.0"/>
-<text class="stage" x="43.0" y="490.5" text-anchor="middle">筛</text>
-<text class="stage" x="43.0" y="514.5" text-anchor="middle">选</text>
-<rect class="stage" x="20" y="817.0" width="46" height="66.0"/>
-<text class="stage" x="43.0" y="845.0" text-anchor="middle">纳</text>
-<text class="stage" x="43.0" y="869.0" text-anchor="middle">入</text>
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="7" refX="7.5" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 z" fill="#000"/></marker></defs>
+<rect width="600" height="471" fill="#fff"/>
+<rect class="box" x="50" y="10" width="230" height="46"/>
+<text class="b" x="165.0" y="29" text-anchor="middle">数据库检索记录</text>
+<text class="b" x="165.0" y="49" text-anchor="middle">（<tspan font-style="italic">n</tspan>=<tspan>1968</tspan>）</text>
+<rect class="box" x="318" y="10" width="268" height="46"/>
+<text class="b" x="452.0" y="29" text-anchor="middle">参考文献追溯记录</text>
+<text class="b" x="452.0" y="49" text-anchor="middle">（<tspan font-style="italic">n</tspan>=<tspan>12</tspan>）</text>
+<line class="ln0" x1="165.0" y1="56" x2="165.0" y2="70"/>
+<line class="ln0" x1="452.0" y1="56" x2="452.0" y2="70"/>
+<line class="ln0" x1="452.0" y1="70" x2="165.0" y2="70"/>
+<rect class="box" x="318" y="82" width="268" height="30"/>
+<text class="b" x="326" y="103" text-anchor="start">剔除重复记录（<tspan font-style="italic">n</tspan>=<tspan>910</tspan>）</text>
+<line class="ln" x1="165.0" y1="97.0" x2="317" y2="97.0"/>
+<line class="ln" x1="165.0" y1="70" x2="165.0" y2="133"/>
+<rect class="box" x="50" y="134" width="230" height="46"/>
+<text class="b" x="165.0" y="153" text-anchor="middle">阅读题目与摘要初筛</text>
+<text class="b" x="165.0" y="173" text-anchor="middle">（<tspan font-style="italic">n</tspan>=<tspan>1070</tspan>）</text>
+<rect class="box" x="318" y="122" width="268" height="106"/>
+<text class="b" x="326" y="143" text-anchor="start">排除与研究问题无关的记录（<tspan font-style="italic">n</tspan>=<tspan>823</tspan>）</text>
+<text class="" x="326" y="162" text-anchor="start">非单一被试设计</text>
+<text class="" x="326" y="181" text-anchor="start">视频未作为干预手段</text>
+<text class="" x="326" y="200" text-anchor="start">视频干预对象非孤独症儿童</text>
+<text class="" x="326" y="219" text-anchor="start">干预目标非社交技能</text>
+<line class="ln" x1="280" y1="157.0" x2="317" y2="157.0"/>
+<line class="ln" x1="165.0" y1="180" x2="165.0" y2="239"/>
+<rect class="box" x="50" y="240" width="230" height="46"/>
+<text class="b" x="165.0" y="259" text-anchor="middle">按干预特征复筛</text>
+<text class="b" x="165.0" y="279" text-anchor="middle">（<tspan font-style="italic">n</tspan>=<tspan>247</tspan>）</text>
+<rect class="box" x="318" y="238" width="268" height="68"/>
+<text class="b" x="326" y="259" text-anchor="start">排除记录（<tspan font-style="italic">n</tspan>=<tspan>153</tspan>）</text>
+<text class="" x="326" y="278" text-anchor="start">第一视角视频示范或视频反馈</text>
+<text class="" x="326" y="297" text-anchor="start">无法判定示范者类型</text>
+<line class="ln" x1="280" y1="263.0" x2="317" y2="263.0"/>
+<line class="ln" x1="165.0" y1="286" x2="165.0" y2="317"/>
+<rect class="box" x="50" y="318" width="230" height="46"/>
+<text class="b" x="165.0" y="337" text-anchor="middle">全文及数据资格复核的研究</text>
+<text class="b" x="165.0" y="357" text-anchor="middle">（<tspan font-style="italic">n</tspan>=<tspan>94</tspan>）</text>
+<rect class="box" x="318" y="316" width="268" height="87"/>
+<text class="b" x="326" y="337" text-anchor="start">排除研究（<tspan font-style="italic">n</tspan>=<tspan>56</tspan>）</text>
+<text class="" x="326" y="356" text-anchor="start">被试超过12岁</text>
+<text class="" x="326" y="375" text-anchor="start">目标技能未逐次测量</text>
+<text class="" x="326" y="394" text-anchor="start">阶段数据点不足3个或无法读取</text>
+<line class="ln" x1="280" y1="341.0" x2="317" y2="341.0"/>
+<line class="ln" x1="165.0" y1="364" x2="165.0" y2="414"/>
+<rect class="box thick" x="50" y="415" width="230" height="46"/>
+<text class="b" x="165.0" y="434" text-anchor="middle">纳入元分析的研究</text>
+<text class="b" x="165.0" y="454" text-anchor="middle">（<tspan font-style="italic">n</tspan>=<tspan>38</tspan>）</text>
+<rect class="stage" x="8" y="10" width="26" height="102"/>
+<text class="st" x="21.0" y="57.5" text-anchor="middle">识</text>
+<text class="st" x="21.0" y="76.5" text-anchor="middle">别</text>
+<rect class="stage" x="8" y="134" width="26" height="269"/>
+<text class="st" x="21.0" y="265.0" text-anchor="middle">筛</text>
+<text class="st" x="21.0" y="284.0" text-anchor="middle">选</text>
+<rect class="stage" x="8" y="415" width="26" height="46"/>
+<text class="st" x="21.0" y="434.5" text-anchor="middle">纳</text>
+<text class="st" x="21.0" y="453.5" text-anchor="middle">入</text>
 </svg>
 </body></html>
